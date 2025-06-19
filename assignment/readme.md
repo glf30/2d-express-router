@@ -132,9 +132,14 @@ Make sure that the ages and names vary enough to test for sorting methods.
 
 - TEST IT WITH POSTMAN
 
-## BONUSES
+18.
 
 - Create sort method for the musical artists
 - Apply the sort method in your GET method
 - Create sort method for the actors
 - Apply the sort method in your GET method
+
+
+### BONUS
+- GET an individual Musician by their ID
+- GET an indiviual Actor by their ID
