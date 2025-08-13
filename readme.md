@@ -66,7 +66,7 @@ Next, we will be importing the router files. Instead of having `app.get()` repea
 
 3. Import Router files
 
-Under the import for the emojisRouter, add the following line:
+To import the films router, add the following line:
 
 ```js
 const filmsRouter = require("./routes/filmsRouter");
