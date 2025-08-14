@@ -124,7 +124,7 @@ Make sure that the ages and names vary enough to test for sorting methods.
 
 - TEST IT WITH POSTMAN
 
-16. Handle PATCH requests to `/actors/[id]`
+16. Handle PUT requests to `/actors/[id]`
 
 - TEST IT WITH POSTMAN
 
