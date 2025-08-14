@@ -134,9 +134,9 @@ Make sure that the ages and names vary enough to test for sorting methods.
 
 18.
 
-- Create sort method for the musical artists
+- Create sort method for the musical artists to sort by name and age as specifying if the order is ascending or descending
 - Apply the sort method in your GET method
-- Create sort method for the actors
+- Create sort method for the actors to sort by name and age as well as specifying if the order is ascending or descending
 - Apply the sort method in your GET method
 
 
