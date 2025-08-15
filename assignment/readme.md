@@ -74,7 +74,7 @@ Make sure that the ages and names vary enough to test for sorting methods.
 
 - TEST IT WITH POSTMAN
 
-10. Handle PATCH requests to `/musicians/:id`.
+10. Handle PUT requests to `/musicians/:id`.
 
 - TEST IT WITH POSTMAN
 
