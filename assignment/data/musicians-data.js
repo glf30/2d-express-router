@@ -3,23 +3,23 @@ const { v4: uuid } = require("uuid");
 let musicians = [
   {
     id: uuid(),
-    name: "KAYTRANADA",
-    age: 30,
+    name: "Carson Pace",
+    age: 29,
   },
   {
     id: uuid(),
-    name: "Kenny Beats",
-    age: 31,
+    name: "Anthony Green",
+    age: 42,
   },
   {
     id: uuid(),
-    name: "Tyler the Creator",
-    age: 31,
+    name: "Lizzy McAlpine",
+    age: 25,
   },
   {
     id: uuid(),
-    name: "Denzel Curry",
-    age: 27,
+    name: "Yvette Young",
+    age: 33,
   },
 ];
 
