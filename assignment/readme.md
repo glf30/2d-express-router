@@ -40,7 +40,7 @@ It's time to get in shape! Back-end functionality is fairly standard, and it tak
 The data we will create is based on what music artists you listen to. Here is an example:
 
 ```js
-const musicians = [
+let musicians = [
   {
     id: uuid(),
     name: "Carson Pace",
@@ -90,7 +90,7 @@ Make sure that the ages and names vary enough to test for sorting methods.
 The data we will create is based on what actors you enjoy. Here is an example:
 
 ```js
-const actors = [
+let actors = [
   {
     id: uuid(),
     name: "Nathan Fielder",
