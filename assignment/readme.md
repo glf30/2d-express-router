@@ -16,7 +16,7 @@ It's time to get in shape! Back-end functionality is fairly standard, and it tak
 
 ## Instructions:
 
-- Begin inside of an empty folder
+- Begin inside of your assignment folder
 - Create an **index.js** file
 - Create a **./routes** folder
 - Create a **./routes/musiciansRouter** file
