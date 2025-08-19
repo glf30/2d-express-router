@@ -1,28 +1,27 @@
 const { v4: uuid } = require("uuid");
 
-const actors = [
+let musicians = [
   {
     id: uuid(),
-    name: "Jonah Hill",
-    age: 38,
+    name: "Carson Pace",
+    age: 29,
   },
   {
     id: uuid(),
-    name: "Leonardo DiCaprio",
-    age: 48,
+    name: "Anthony Green",
+    age: 42,
   },
   {
     id: uuid(),
-    name: "Finn Wolfhard",
-    age: 19,
+    name: "Lizzy McAlpine",
+    age: 25,
   },
   {
     id: uuid(),
-    name: "Samuel L Jackson",
-    age: 73,
+    name: "Yvette Young",
+    age: 33,
   },
 ];
-
 // console.log(actors);
 
 module.exports = actors;
