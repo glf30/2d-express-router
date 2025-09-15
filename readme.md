@@ -74,8 +74,6 @@ Since we are splitting up the routes, we should also split up the URL up as well
 
 4. Set up the URL routes to connect to each router
 
-Under the equivalent line for the emojis, add:
-
 ```js
 // localhost:3000/api/v1/films
 app.use("/api/v1/films", filmsRouter);
