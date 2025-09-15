@@ -55,8 +55,6 @@ Next, we set up our middleware functionality:
 
 ```js
 // Can accept incoming JSON data
-app.use(express.urlencoded({ extended: false }));
-// Can send outgoing JSON data
 app.use(express.json());
 // logs requests and metadata
 app.use(logger("dev"));
