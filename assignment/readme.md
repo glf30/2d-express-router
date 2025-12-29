@@ -22,7 +22,7 @@ It's time to get in shape! Back-end functionality is fairly standard, and it tak
 - Create a **./routes/musiciansRouter** file
 - Create a **./routes/actorsRouter** file
 - Use command `npm init -y` to initialize a Node project
-- Use command `npm install express morgan uuid` so our necessary modules are ready to use
+- Use command `npm install express morgan uuid lodash` so our necessary modules are ready to use
 
 - - In **index.js**
 
