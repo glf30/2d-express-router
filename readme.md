@@ -193,10 +193,10 @@ router.post("/", function (req, res) {
 
 - Once it works, cut the server off by pressing `ctrl + c` in the terminal
 
-10. Handle PATCH requests to localhost:3000/api/v1/films/[id]
+10. Handle PUT requests to localhost:3000/api/v1/films/[id]
 
 ```js
-router.patch("/:id", function (req, res) {
+router.put("/:id", function (req, res) {
     // 10a. Find the film you want to change
     const film = films.find((film) => film.id === req.params.id);
 
@@ -215,11 +215,11 @@ router.patch("/:id", function (req, res) {
             payload: film,
         });
     }
-}); // end of PATCH request to /films/[id]
+}); // end of PUT request to /films/[id]
 ```
 
 - Run the server by going to the terminal and using the command `node index.js`
-- Use Postman to perform a PATCH request to `localhost:3000/api/v1/films/[an id from the data]`. Grab one of the unique IDs that was generated for a film of your choice
+- Use Postman to perform a PUT request to `localhost:3000/api/v1/films/[an id from the data]`. Grab one of the unique IDs that was generated for a film of your choice
 - - Change the Params tab to Body. In the Body tab.
 - - Set the data to raw, and set text to JSON.
 - Here is an example of the req.body:
