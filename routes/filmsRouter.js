@@ -19,7 +19,7 @@
 */
 
 /*
-    10. Handle PATCH requests to /films/[id]
+    10. Handle PUT requests to /films/[id]
 */
 
 /*
