@@ -121,6 +121,7 @@ Make sure that the ages and names vary enough to test for sorting methods.
 
 19. Handle DELETE requests to `/actors/[id]`
 
+## Sorting:
 
 - Create sort method for the musical artists to sort by name and age as well as specifying if the order is ascending or descending
 - Apply the sort method in your GET method
