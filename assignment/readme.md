@@ -68,19 +68,14 @@ Make sure that the ages and names vary enough to test for sorting methods.
 
 8. Handle GET requests to `/musicians` and Export the router at the bottom of the page
 
-- TEST IT WITH POSTMAN
+9. GET an individual Actor by their ID
 
-9. Handle POST requests to `/musicians`.
-
-- TEST IT WITH POSTMAN
+10. Handle POST requests to `/musicians`.
 
 10. Handle PUT requests to `/musicians/:id`.
 
-- TEST IT WITH POSTMAN
-
 11. Handle DELETE requests to `/musicians/:id`.
 
-- TEST IT WITH POSTMAN
 
 - - In **./routes/actorsRouter.js**
 
@@ -117,29 +112,17 @@ let actors = [
 Make sure that the ages and names vary enough to test for sorting methods.
 
 14. Handle GET requests to `/actors` and Export the router at the bottom of the page
+    
+16. GET an individual Actor by their ID
 
-- TEST IT WITH POSTMAN
+17. Handle POST requests to `/actors/`
 
-15. Handle POST requests to `/actors/`
+18. Handle PUT requests to `/actors/[id]`
 
-- TEST IT WITH POSTMAN
+19. Handle DELETE requests to `/actors/[id]`
 
-16. Handle PUT requests to `/actors/[id]`
-
-- TEST IT WITH POSTMAN
-
-17. Handle DELETE requests to `/actors/[id]`
-
-- TEST IT WITH POSTMAN
-
-18.
 
 - Create sort method for the musical artists to sort by name and age as well as specifying if the order is ascending or descending
 - Apply the sort method in your GET method
 - Create sort method for the actors to sort by name and age as well as specifying if the order is ascending or descending
 - Apply the sort method in your GET method
-
-
-### BONUS
-- GET an individual Musician by their ID
-- GET an indiviual Actor by their ID
