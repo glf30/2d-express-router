@@ -68,7 +68,7 @@ Make sure that the ages and names vary enough to test for sorting methods.
 
 8. Handle GET requests to `/musicians` and Export the router at the bottom of the page
 
-9. GET an individual Actor by their ID
+9. GET an individual Musician by their ID
 
 10. Handle POST requests to `/musicians`.
 
