@@ -115,27 +115,27 @@ Next, let's set up our local data. Every time we run the server, the IDs will be
 7. Create an array of your favorite films using uuid() for unique ID's
 
 ```js
-const films = [
-    {
-        id: uuid(),
-        name: "Guardians of the Galaxy",
-        boxOffice: 300,
-    },
-    {
-        id: uuid(),
-        name: "Dr. Strange & the Multiverse of Madness",
-        boxOffice: 75,
-    },
-    {
-        id: uuid(),
-        name: "Thor",
-        boxOffice: 55,
-    },
-    {
-        id: uuid(),
-        name: "When You Finish Saving The World",
-        boxOffice: 2,
-    },
+let films = [
+  {
+    id: uuid(),
+    name: "Guardians of the Galaxy",
+    boxOffice: 300,
+  },
+  {
+    id: uuid(),
+    name: "Dr. Strange & the Multiverse of Madness",
+    boxOffice: 75,
+  },
+  {
+    id: uuid(),
+    name: "When You Finish Saving The World",
+    boxOffice: 2,
+  },
+  {
+    id: uuid(),
+    name: "Thor",
+    boxOffice: 55,
+  },
 ];
 ```
 
