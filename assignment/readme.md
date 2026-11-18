@@ -93,7 +93,7 @@ let musicians = [
     id: uuid(),
     name: "Jonny Greenwood",
     age: 55,
-    instrument: "guitars"
+    instrument: "guitar"
   },
 ];
 ```
